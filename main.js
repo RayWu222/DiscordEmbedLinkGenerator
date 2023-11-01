@@ -25,12 +25,14 @@ button.addEventListener('click', () =>{
         urlList += pixiv + path + "\n";
         box.textContent = urlList;
     }else{
-        return;
+        return input.value;
     }
     
     input.value = "";
 });
 
 clear.addEventListener('click', ()=>{
+    urlList = "";
     box.textContent = "";
+
 })

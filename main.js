@@ -4,6 +4,7 @@ const input = document.querySelector('input');
 const box = document.querySelector('#result');
 const fixv = "https://fixv";
 const dd = "https://www.ddinstagram.com";
+const pixiv = "https://www.phixiv.net";
 let urlList = "";
 
 
@@ -16,15 +17,17 @@ button.addEventListener('click', () =>{
     if(hostname == 'x.com'){
         urlList += fixv + hostname + path + "\n" ;
         box.textContent =  urlList;     
-    }
-    
-
-    if(hostname == 'www.instagram.com'){
+    }else if(hostname == 'www.instagram.com'){
         urlList += dd + path + "\n"
         box.textContent = urlList;
 
+    }else if(hostname == 'www.pixiv.net'){
+        urlList += pixiv + path + "\n";
+        box.textContent = urlList;
+    }else{
+        return;
     }
-
+    
     input.value = "";
 });
 

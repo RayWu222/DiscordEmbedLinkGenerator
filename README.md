@@ -12,6 +12,7 @@ Key Features:
     Transforms Twitter, Instagram, and Pixiv links into embedded preview links on Discord.
     Enhances the Discord chat experience by providing content previews.
 
-#Instruction
-1. Click share link on images or videos you want to share and paste it in the url input, which will generate an embedded link for you
-2. Copy the text from the text area and paste it in Discord, tada all the links will be embedded.
+# Instruction
+1. Get share link for images or videos from those social media site
+2. Paste it to the url section of the app and click submit, which will then generate embedded version of that link in the text area
+3. Copy the text from the text area and paste it in Discord, tada all the links will be embedded.

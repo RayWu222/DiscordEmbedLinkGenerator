@@ -1,2 +1,7 @@
 # DiscordEmbedLinkGenerator
- A JavaScript app that will take link like twitter/instagram and embed  so user can see the full image without going to external site 
+This web app is a straightforward JavaScript utility that takes links from popular social media platforms like Twitter, Instagram, and Pixiv and converts them into embedded content-friendly links. This simplifies content viewing within Discord and allows users to preview the linked content without needing to click on the links.
+
+Key Features:
+
+    Transforms Twitter, Instagram, and Pixiv links into embedded preview links on Discord.
+    Enhances the Discord chat experience by providing content previews.

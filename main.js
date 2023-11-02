@@ -14,7 +14,7 @@ button.addEventListener('click', () =>{
     let path = domain.pathname;
     console.log(hostname);
     console.log(path);
-    if(hostname == 'x.com'){
+    if(hostname == 'x.com' || hostname == 'twitter.com'){
         urlList += fixv + hostname + path + "\n" ;
         box.textContent =  urlList;     
     }else if(hostname == 'www.instagram.com'){
